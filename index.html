@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vizija Mladih</title>
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <h1>
+          <a href="#" class="logo">Vizija <span class="span">Mladih</span></a>
+        </h1>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="nav-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="navbar-link" data-nav-link>O nama</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#food-menu" class="navbar-link" data-nav-link
+                >Naše akcije</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-btn-group">
+          <button
+            class="nav-toggle-btn"
+            aria-label="Toggle Menu"
+            data-menu-toggle-btn
+          >
+            <span class="line top"></span>
+            <span class="line middle"></span>
+            <span class="line bottom"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 
+    - #SEARCH BOX
+  -->
+
+    <div class="search-container" data-search-container>
+      <div class="search-box">
+        <input
+          type="search"
+          name="search"
+          aria-label="Search here"
+          placeholder="Type keywords here..."
+          class="search-input"
+        />
+
+        <button
+          class="search-submit"
+          aria-label="Submit search"
+          data-search-submit-btn
+        >
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <button
+        class="search-close-btn"
+        aria-label="Cancel search"
+        data-search-close-btn
+      ></button>
+    </div>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="hero"
+          id="home"
+          style="background-image: url('./assets/images/hero-bg.jpg.jpg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">Od tebe počinje</p>
+
+              <h2 class="h1 hero-title">
+                Organizacija mladih sa vizijom budućnosti
+              </h2>
+
+              <p class="hero-text">
+                Mi smo organizacija mladih koja svojim volonterskim radom i
+                akcijama naše organizacije pokušava učiniti Bijeljinu ljepšim
+                mjestom.
+              </p>
+
+              <a href="https://www.instagram.com/vizijamladih/" target="_blank"
+                ><button class="btn">Pratite nas</button></a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section section-divider gray about" id="about">
+          <div class="container">
+            <div class="about-banner">
+              <img
+                src="assets/images/about.jpg"
+                width="509"
+                height="300"
+                loading="lazy"
+                class="w-100 about-img"
+              />
+            </div>
+
+            <div class="about-content">
+              <h2 class="h2 section-title">
+                O
+                <span class="span">Nama</span>
+              </h2>
+
+              <p class="section-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti consequatur a consectetur obcaecati in ex id ut.
+                Aperiam autem asperiores nulla velit vitae harum culpa at, quia
+                nemo ratione obcaecati! Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Inventore cumque voluptas totam autem
+                voluptatem a porro?
+              </p>
+
+              <ul class="about-list">
+                <li class="about-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+
+                  <span class="span">Lorem ipsum dolor</span>
+                </li>
+
+                <li class="about-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+
+                  <span class="span">Lorem ipsum dolor</span>
+                </li>
+
+                <li class="about-item">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+
+                  <span class="span">Lorem ipsum dolor</span>
+                </li>
+              </ul>
+
+              <a href="https://www.facebook.com/vizijamladih/" target="_blank"
+                ><button class="btn btn-hover">Pridružite se</button></a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #AKCIJE
+      -->
+
+        <section class="section food-menu" id="food-menu">
+          <div class="container">
+            <p class="section-subtitle">Uspješne akcije</p>
+
+            <h2 class="h2 section-title">
+              Naši ostvareni <span class="span">ciljevi</span>
+            </h2>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem deleniti nam nostrum distinctio.
+            </p>
+
+            <ul class="food-menu-list">
+              <li>
+                <div class="food-menu-card">
+                  <div class="card-banner">
+                    <img
+                      src="./assets/images/action.jpg"
+                      width="300"
+                      height="300"
+                      loading="lazy"
+                      class="w-100"
+                    />
+
+                    <div class="badge">9.01.2023</div>
+
+                    <a
+                      href="https://www.facebook.com/vizijamladih/posts/pfbid02CBv993gCUf2tGBMyfG2tHqUHb15WjzBqS6rHzrkQUsuDwgCB3ufCWqJ9noA31dSnl?__cft__[0]=AZVwKboh49vVDEMnRYcVeBhHkIjmEwF5GmE9_Gecp7T9Hc4HaY7GokMsqUUlSEa2xEKY-3_mRNTvrWsxspliBRG1oHzTc66PHJhK6fafpNYk89wt0nAFu81bdl7gjAPrn_-ZZNSDy6egYm-gTz3fMzPesYNxK_futFY2zijXF1nM0SzqWYw3K-xDbP98D64E8kM&__tn__=%2CO%2CP-R"
+                      target="_blank"
+                      ><button class="btn food-menu-btn">Pročitajte</button></a
+                    >
+                  </div>
+
+                  <div class="wrapper">
+                    <p class="category">Iskustvo:</p>
+
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+
+                  <h3 class="h3 card-title">Za Anastasiju</h3>
+
+                  <div class="price-wrapper">
+                    <p class="price-text">Organizator:</p>
+
+                    <data class="price">Vizija Mladih</data>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="food-menu-card">
+                  <div class="card-banner">
+                    <img
+                      src="./assets/images/action3.jpg"
+                      width="300"
+                      height="300"
+                      loading="lazy"
+                      class="w-100"
+                    />
+
+                    <div class="badge">15.03.2022</div>
+
+                    <a
+                      href="https://www.facebook.com/vizijamladih/posts/pfbid0NwHm6LF2tFrkqPqrKs79VW5aXRyBTL34devaKboJuZ1s6qH7iQ2amkhKpPpTA2Ksl?__cft__[0]=AZVMT-YK0xIvBj008SroRzbzs4KV2SZvGg_zrnO0iRXItJzm1reoNoBU2v9Oib7M9y-L7pzzwvHkvOAy6ffo-Kru8lzaB_q8K5JRqYTazCpID9xvsQegJtjV6bTqlGs0-efC5W0YhnB7AUGR0EBPRI_cls3TPFGPiES3o8H78mWEhJCYOx9Ft_wMTdZoecSkGzk&__tn__=%2CO%2CP-R"
+                      target="_blank"
+                      ><button class="btn food-menu-btn">Pročitajte</button></a
+                    >
+                  </div>
+
+                  <div class="wrapper">
+                    <p class="category">Iskustvo:</p>
+
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+
+                  <h3 class="h3 card-title">Ti se pitaš</h3>
+
+                  <div class="price-wrapper">
+                    <p class="price-text">Organizator:</p>
+
+                    <data class="price" value="29.00"
+                      >Vizija Mladih, Bijeljina</data
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="food-menu-card">
+                  <div class="card-banner">
+                    <img
+                      src="./assets/images/action7.jpg"
+                      width="300"
+                      height="200"
+                      loading="lazy"
+                      class="w-100"
+                    />
+
+                    <div class="badge">3.01.2022.</div>
+
+                    <a
+                      href="https://www.facebook.com/vizijamladih/posts/pfbid0w5WKZsZv9j2U7CMdsD7t7MKEsQ5nWZBvVJon4x7Cm1cGEGz3XQt8EZA82fuU6vrPl?__cft__[0]=AZVc4zuPLjzNjz9oj83abMe1llf1S7DSMQ8Krxhw18EZInUuvWQRehnx_HysNrq47Csx_ydDsaaEciz4JgHZWDrKC4khLhYTS5DErOqizAKjfirKagmcMU9yKkCG0jXcbl7REzGK8mqC2psVZ6T8OenQzZBHX0tPruT2W17F113Ws2gK71RFVSNkBKLX65kSI9I&__tn__=%2CO%2CP-R"
+                      target="_blank"
+                      ><button class="btn food-menu-btn">Pročitajte</button></a
+                    >
+                  </div>
+
+                  <div class="wrapper">
+                    <p class="category">Iskustvo:</p>
+
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+
+                  <h3 class="h3 card-title">Trka Deda Mrazeva</h3>
+
+                  <div class="price-wrapper">
+                    <p class="price-text">Organizator:</p>
+
+                    <data class="price" value="49.00">Vizija Mladih</data>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="food-menu-card">
+                  <div class="card-banner">
+                    <img
+                      src="./assets/images/action2.jpg"
+                      width="300"
+                      height="300"
+                      loading="lazy"
+                      class="w-100"
+                    />
+
+                    <div class="badge">25.3.2022.</div>
+
+                    <button class="btn food-menu-btn">Pročitajte</button>
+                  </div>
+
+                  <div class="wrapper">
+                    <p class="category">Iskustva:</p>
+
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+
+                  <h3 class="h3 card-title">Uređenje parka</h3>
+
+                  <div class="price-wrapper">
+                    <p class="price-text">Organizotir:</p>
+
+                    <data class="price" value="59.00 ">Vizija Mladih</data>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="food-menu-card">
+                  <div class="card-banner">
+                    <img
+                      src="./assets/images/action4.jpg"
+                      width="300"
+                      height="300"
+                      loading="lazy"
+                      class="w-100"
+                    />
+
+                    <div class="badge">1.02.2023</div>
+
+                    <a
+                      href="https://www.facebook.com/vizijamladih/posts/pfbid0v79t3J8D7YUJDUraB1x9H2MiYCPc3WPGMF3oiBtT4mWdg5BsLRmK1tNtRANKYhHyl?__cft__[0]=AZXObLlr4uV2babAO08unXsIVMccQwAYj-UsvP9D19n5DQW3ShiEXvLMZvqZuCX95OM1cnOzSsck6GBUS2KDQH8Wwmf8tuoPXiQ7t65EC7UbUlwXyAtZP25UomeP21JAP0jf1W6TzwL-zIhxqCn84ASPWqxEQfHesIZT2p_SAeMgBOYKp7okULne0sfGhpePP-M&__tn__=%2CO%2CP-R"
+                      target="_blank"
+                      ><button class="btn food-menu-btn">Pročitajte</button></a
+                    >
+                  </div>
+
+                  <div class="wrapper">
+                    <p class="category">Iskustva</p>
+
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+
+                  <h3 class="h3 card-title">Vidi da li dišem</h3>
+
+                  <div class="price-wrapper">
+                    <p class="price-text">Organizator:</p>
+
+                    <data class="price" value="49.00">Info House</data>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="food-menu-card">
+                  <div class="card-banner">
+                    <img
+                      src="./assets/images/action8.jpg"
+                      width="300"
+                      height="300"
+                      loading="lazy"
+                      class="w-100"
+                    />
+
+                    <div class="badge">14.08.2022.</div>
+
+                    <a
+                      href="https://www.facebook.com/vizijamladih/posts/pfbid0Qe8CXkH54NAcP97cafFNnM5ZGxkXAcuHQxvrkDpUepYmGtR1bCHg48mS36h45TZJl?__cft__[0]=AZVtd0pbGplCDsnkhoBiVv3oVsEECBJcqPghU4wGgKbLaK-4b1Tevj6Ei9b18q7oUAJeHUcCi5B9eXwZPnfGxyYRKJcrbooD4USeP55Q2ZAA0r4r3T7NMQz5NZPooe1yTBZIDNjexHP2lWSoDQqjFf_lN-NBynKx32Ii3OyfFUJgHMQjllnjedPglUkhDYvp5Jg&__tn__=%2CO%2CP-R"
+                      target="_blank"
+                      ><button class="btn food-menu-btn">Pročitajte</button></a
+                    >
+                  </div>
+
+                  <div class="wrapper">
+                    <p class="category">Iskustva:</p>
+
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+
+                  <h3 class="h3 card-title">Za Milenu</h3>
+
+                  <div class="price-wrapper">
+                    <p class="price-text">Organizator:</p>
+
+                    <data class="price" value="49.00">Vizija Mladih</data>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ČLANOVI
+      -->
+
+        <section class="section section-divider white testi">
+          <div class="container">
+            <p class="section-subtitle">Naši članovi</p>
+
+            <h2 class="h2 section-title">
+              Naši članovi <span class="span">o nama</span>
+            </h2>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+              na
+            </p>
+
+            <ul class="testi-list has-scrollbar">
+              <li class="testi-item">
+                <div class="testi-card">
+                  <div class="profile-wrapper">
+                    <figure class="avatar">
+                      <img
+                        src="./assets/images/member1.jpg"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <div>
+                      <h3 class="h4 testi-name">Marko Ristić</h3>
+
+                      <p class="testi-title">Glumac, volonter</p>
+                    </div>
+                  </div>
+
+                  <blockquote class="testi-text">
+                    "lorem ipsum lorem loremlorem lorem lorem "
+                  </blockquote>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testi-item">
+                <div class="testi-card">
+                  <div class="profile-wrapper">
+                    <figure class="avatar">
+                      <img
+                        src="./assets/images/member2.jpg"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <div>
+                      <h3 class="h4 testi-name">Biljana Lazić</h3>
+
+                      <p class="testi-title">Glumica, volonter</p>
+                    </div>
+                  </div>
+
+                  <blockquote class="testi-text">
+                    "lorem ipsum lorem loremlorem lorem lorem "
+                  </blockquote>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testi-item">
+                <div class="testi-card">
+                  <div class="profile-wrapper">
+                    <figure class="avatar">
+                      <img
+                        src="./assets/images/member3.jpg"
+                        width="80"
+                        height="80"
+                        loading="lazy"
+                      />
+                    </figure>
+
+                    <div>
+                      <h3 class="h4 testi-name">Đorđe Ilić</h3>
+
+                      <p class="testi-title">Učenik, volonter</p>
+                    </div>
+                  </div>
+
+                  <blockquote class="testi-text">
+                    "lorem ipsum lorem loremlorem lorem lorem "
+                  </blockquote>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section section-divider white blog" id="blog">
+          <div class="container">
+            <p class="section-subtitle">Naš Blog</p>
+
+            <h2 class="h2 section-title">
+              Sve o našim <span class="span">aktivnostima</span>
+            </h2>
+
+            <p class="section-text">
+              Pročitajte o našim poslednjim akcijama, posjetama, aktivnostima i
+              saradnjama.
+            </p>
+
+            <ul class="blog-list">
+              <li>
+                <div class="blog-card">
+                  <div class="card-banner">
+                    <img
+                      src="./assets/images/action4.jpg"
+                      width="600"
+                      height="390"
+                      loading="lazy"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <div class="card-meta-wrapper">
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="calendar-outline"></ion-icon>
+
+                        <time class="meta-info" datetime="2022-01-01"
+                          >10.02.2023</time
+                        >
+                      </a>
+
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="person-outline"></ion-icon>
+
+                        <p class="meta-info">Stevo Marjanović</p>
+                      </a>
+                    </div>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://www.facebook.com/vizijamladih/posts/pfbid0v79t3J8D7YUJDUraB1x9H2MiYCPc3WPGMF3oiBtT4mWdg5BsLRmK1tNtRANKYhHyl?__cft__[0]=AZXpX4co6Yk9bLQH2MmHMKB9gcwXyXEy4x8V61vhjldQ4C9LjhVBW-UT4ROs5hmwLgd3_CLpzG2-c-U-nOzRnnOcHB4yNdzMuenu3bREkyeHjnA3BZursNquDv70Z5Tudf40OM8fq2ul6WVZDWjEs7aMY5UPmmJA_RDfPIBq_-P6gim2wltjwtW1vffJJwi7UpM&__tn__=%2CO%2CP-R"
+                        class="card-title"
+                        >Vidi da li dišem</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Nismo bili svjesni ovog problema dok nismo u bližem
+                      okruženju susreli se sa posljedicama upravo zagadjenja
+                      vazduha.
+                    </p>
+
+                    <a
+                      href="https://www.facebook.com/vizijamladih/posts/pfbid02kvRfFTdR6SAWEcgYqThgApMHEo2LEiBxBNthWoy2iXFjtaLUBnP8gwXuk5pTfVLFl?__cft__[0]=AZXw9Lz-YTVKjvDnttosZELU46oJgkxvwy6lJ1MG0BktiH4bAEuwPozlc-bMBHxvxEdKTlXQ8YDy4bOY1mWza4o0g00t0iKpg-jm9GvJbLxypYctKAyacnLWN5YAi2jniya99ndOjW-jCoz6yGzqlvkmpMOsGnbXoeH_b-AEOOXdDWpLQykHS0o6vi797Bc7cTU&__tn__=%2CO%2CP-R"
+                      class="btn-link"
+                      target="
+                    _blank"
+                    >
+                      <span>Više</span></a
+                    >
+
+                    <a
+                      href="https://www.facebook.com/vizijamladih/posts/pfbid02kvRfFTdR6SAWEcgYqThgApMHEo2LEiBxBNthWoy2iXFjtaLUBnP8gwXuk5pTfVLFl?__cft__[0]=AZXw9Lz-YTVKjvDnttosZELU46oJgkxvwy6lJ1MG0BktiH4bAEuwPozlc-bMBHxvxEdKTlXQ8YDy4bOY1mWza4o0g00t0iKpg-jm9GvJbLxypYctKAyacnLWN5YAi2jniya99ndOjW-jCoz6yGzqlvkmpMOsGnbXoeH_b-AEOOXdDWpLQykHS0o6vi797Bc7cTU&__tn__=%2CO%2CP-R"
+                      target="
+                      _blank"
+                      ><ion-icon aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <div class="card-banner">
+                    <img
+                      src="./assets/images/blog1.jpg"
+                      width="600"
+                      height="390"
+                      loading="lazy"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <div class="card-meta-wrapper">
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="calendar-outline"></ion-icon>
+
+                        <time class="meta-info" datetime="2022-01-01"
+                          >10.02.2023.</time
+                        >
+                      </a>
+
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="person-outline"></ion-icon>
+
+                        <p class="meta-info">Stevo Marjanović</p>
+                      </a>
+                    </div>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://mionama.ba/vizija-mladih/"
+                        class="card-title"
+                        target="_blank"
+                        >Mi o nama o "Viziji Mladih"</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Proteklu deceniju veliki broj organizacija bio je aktivan
+                      u Bijeljini. Danas je takvih svega nekoliko. Nekolicina
+                      mladih zbog želje za promjenama pokreću Omladinsku
+                      organizaciju “Vizija mladih”.
+                    </p>
+
+                    <a
+                      href="https://mionama.ba/vizija-mladih/"
+                      class="btn-link"
+                      target="_blank"
+                    >
+                      <span>Više</span>
+
+                      <ion-icon aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <div class="card-banner">
+                    <img
+                      src="./assets/images/blog3.jpg"
+                      width="600"
+                      height="390"
+                      loading="lazy"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <div class="card-meta-wrapper">
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="calendar-outline"></ion-icon>
+
+                        <time class="meta-info" datetime="2022-01-01"
+                          >14.2.2023.</time
+                        >
+                      </a>
+
+                      <a href="#" class="card-meta-link">
+                        <ion-icon name="person-outline"></ion-icon>
+
+                        <p class="meta-info">Stevo Marjanović</p>
+                      </a>
+                    </div>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://www.bijeljina.org/novosti/79288/64/Vizija-mladih-za-bolju-drustvenu-zajednicu.html?fbclid=IwAR0nDKfi38cCla1NLaY5iB1GmZXUgcRCvpLRW4ifor1VPgIV8NpsrSv__Ew"
+                        class="card-title"
+                        target="_blank"
+                        >Za bolju društvenu zajednicu</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Novogodišnje praznike u Bijeljini drugu godinu za redom
+                      obilježilo je „Zimsko selo“, manifestacija na gradskom
+                      trgu tokom koje je za dveseteak dana održano pregršt
+                      koncerata i događaja za najmlađe.
+                    </p>
+
+                    <a
+                      href="https://www.bijeljina.org/novosti/79288/64/Vizija-mladih-za-bolju-drustvenu-zajednicu.html?fbclid=IwAR0nDKfi38cCla1NLaY5iB1GmZXUgcRCvpLRW4ifor1VPgIV8NpsrSv__Ew"
+                      class="btn-link"
+                      target="_blank"
+                    >
+                      <span>Više</span>
+
+                      <ion-icon aria-hidden="true"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div
+        class="footer-top"
+        style="background-image: url('./assets/images/footer-illustration.png')"
+      >
+        <div class="container">
+          <div class="footer-brand">
+            <a href="" class="logo">Vizija <span class="span">Mladih</span></a>
+
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+              error adipisci laboriosam autem cumque inventore, cupiditate
+              repellat fugiat molestiae beatae eligendi officiis nesciunt
+              consectetur temporibus a necessitatibus sit libero. Praesentium.
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a
+                  href="https://www.facebook.com/vizijamladih/"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.youtube.com/@vizijamladih"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/vizijamladih/"
+                  class="social-link"
+                  target="_blank"
+                >
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Kontakt Info</p>
+            </li>
+
+            <li>
+              <p class="footer-list-item">
+                <a href="tel:066487632">066/487-632</a>
+              </p>
+            </li>
+
+            <li>
+              <p class="footer-list-item">
+                <a href="mailto:vizijamladihbn@gmail.com"
+                  >vizijamladihbn@gmail.com</a
+                >
+              </p>
+            </li>
+
+            <li>
+              <a
+                href="https://www.google.com/maps/place/%D0%91%D0%B8%D1%98%D0%B5%D1%99%D0%B8%D0%BD%D0%B0+76300/data=!4m2!3m1!1s0x475be8e072b7126d:0xe654fbfc68377f0?sa=X&ved=2ahUKEwiy2aen9JX9AhXCQvEDHf1iArQQ8gF6BAgkEAE"
+                target="_blank"
+                class="footer-list-item"
+              >
+                Bijeljina,Republika Srpska,Bosna i Hercegovina 76300
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Obavljeni projekti:</p>
+            </li>
+
+            <li>
+              <p class="footer-list-item">Ti se pitaš</p>
+            </li>
+
+            <li>
+              <p class="footer-list-item">Vidiš da li dišem</p>
+            </li>
+
+            <li>
+              <p class="footer-list-item">Zmski korzo</p>
+            </li>
+            <li>
+              <p class="footer-list-item">Trka Deda Mrazeva</p>
+            </li>
+            <li>
+              <p class="footer-list-item">Ekološki dan</p>
+            </li>
+            <li>
+              <p class="footer-list-item">Uređenje parka na Bogdanović Placu</p>
+            </li>
+            <li>
+              <p class="footer-list-item">Za Anastasiju</p>
+            </li>
+            <li>
+              <p class="footer-list-item">Za Milanu</p>
+            </li>
+          </ul>
+
+          <img src="assets/images/footer.jpg" height="400" width="400" />
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright-text">
+            &copy; 2023
+            <a
+              href="https://milos871.github.io/Tribus/"
+              class="copyright-link"
+              target="_blank"
+              >TribusMA</a
+            >
+            Sva prava zadržana.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="Back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
